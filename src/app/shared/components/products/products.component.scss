@@ -1,0 +1,55 @@
+.main-heading{
+    position: relative;
+    top: 0;
+}
+
+.side-box{
+    max-width: 50%;
+}
+
+.notAvl{
+    filter: blur(1px) grayscale(1);
+}
+
+.rating{
+    position: relative;
+    i{
+        font-size: 10px;
+        position: absolute;
+        top : 6px;
+    }
+}
+
+.rupees{
+    position: relative;
+    i{
+        position: absolute;
+        left: -13px;
+        top: 5px;
+    }
+}
+
+.sec-side-box{
+    position: relative;
+    p{
+        font-size: 10px;
+        position: absolute;
+        top: 45px;
+        left: -13px;
+    }
+    button{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+}
+
+.addRemoveBox{
+    height: 25px;
+    width: 72px;
+    border: 1px solid rgb(40, 38, 38);
+    border-radius: 2px;
+    .minus, .plus{
+        cursor: pointer;
+    }
+}
