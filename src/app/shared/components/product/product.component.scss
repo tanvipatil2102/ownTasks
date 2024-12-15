@@ -71,7 +71,7 @@
     .price{
         & img{
             position: absolute;
-            left: 275px;
+            left: 118px;
             top: 8px;
         }
     }
@@ -100,4 +100,13 @@
   .save{
     top: 50%;
   }
+}
+@media all and (max-width : 420px){
+    .price{
+        & img{
+            position: absolute;
+            left: 195px;
+            top: -210px;
+        }
+    }
 }
