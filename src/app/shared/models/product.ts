@@ -5,6 +5,7 @@ export interface Iproduct {
     reviews: string;
     imgUrl: string;
     features: string[];
+    isAvailable: boolean;
     price: string;
     savings: string;
     off: string;

@@ -13,6 +13,7 @@ export const productArr: Array<Iproduct> = [
             "48MP + 12MP | 12MP Front Camera",
             "A16 Bionic Chip, 6 Core Processor Processor"
         ],
+        isAvailable : true,
         price :"60,000",
         savings : "69,900",
         off : "12",
@@ -30,13 +31,14 @@ export const productArr: Array<Iproduct> = [
             "5000 mAh Battery",
             "Helio G36 Processor"
         ],
+        isAvailable : false,
         price :"5,499",
         savings : "8,999",
         off : "38",
     },
     {
         prodName : "Motorola g45 5G (Viva Magenta, 128 GB)  (8 GB RAM)",
-        rating : 4.4,
+        rating : 1.4,
         ratings : "69,936",
         reviews : "3,373",
         imgUrl:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/9/3/6/-original-imah3xk8u8dgteq3.jpeg?q=70",
@@ -47,13 +49,14 @@ export const productArr: Array<Iproduct> = [
             "5000 mAh Battery",
             "Snapdragon 6s Gen 3 Processor"
         ],
+        isAvailable : true,
         price :"11,999",
         savings : "14,999",
         off : "20",
     },
     {
         prodName : "SAMSUNG Galaxy F05 (Twilight Blue, 64 GB)  (4 GB RAM)",
-        rating : 4.2,
+        rating : 3.6,
         ratings : "18,885",
         reviews : "1,002",
         imgUrl:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/r/f/-original-imah56hkgehywn5b.jpeg?q=70",
@@ -64,6 +67,7 @@ export const productArr: Array<Iproduct> = [
             "5000 mAh Battery",
             "Helio G85 Processor"
         ],
+        isAvailable : true,
         price :"6,999",
         savings : "9,999",
         off : "30",
@@ -80,6 +84,7 @@ export const productArr: Array<Iproduct> = [
             "48MP + 12MP | 12MP Front Camera",
             "A16 Bionic Chip, 6 Core Processor Processor"
         ],
+        isAvailable : true,
         price :"60,999",
         savings : "69,900",
         off : "12",
@@ -96,6 +101,7 @@ export const productArr: Array<Iproduct> = [
             "48MP + 12MP | 12MP Front Camera",
             "A16 Bionic Chip, 6 Core Processor Processor"
         ],
+        isAvailable : true,
         price :"14,499",
         savings : "18,999",
         off : "23",
@@ -112,6 +118,7 @@ export const productArr: Array<Iproduct> = [
             "48MP + 12MP | 12MP Front Camera",
             "A16 Bionic Chip, 6 Core Processor Processor"
         ],
+        isAvailable : true,
         price :"60,999",
         savings : "69,900",
         off : "12",
@@ -129,6 +136,7 @@ export const productArr: Array<Iproduct> = [
             "5000 mAh Battery",
             "Helio G36 Processor"
         ],
+        isAvailable : true,
         price :"5,499",
         savings : "8,999",
         off : "38",
@@ -146,6 +154,7 @@ export const productArr: Array<Iproduct> = [
             "5000 mAh Battery",
             "Helio G85 Processor"
         ],
+        isAvailable : true,
         price :"6,999",
         savings : "9,999",
         off : "30",

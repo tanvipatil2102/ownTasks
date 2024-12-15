@@ -57,3 +57,47 @@
         font-weight: 500;
     }
 }
+
+.notAvl{
+    filter: blur(1px) grayscale(1);
+}
+
+@media all and (max-width : 800px) {
+    .delevery{
+        position: relative;
+        top: 57%;
+    }
+
+    .price{
+        & img{
+            position: absolute;
+            left: 275px;
+            top: 8px;
+        }
+    }
+
+    .savings { 
+        i{
+        position: absolute;
+        left: 129px;
+        top: 21px;
+    }
+    small{
+        position: absolute;
+        left: 137px;
+        top: 9px;
+    }
+  }
+
+  .savings .off{
+    position: absolute;
+    left: 204px;
+    top: 9px;
+    font-weight: 500;
+    color: rgb(38, 165, 65);
+  }
+
+  .save{
+    top: 50%;
+  }
+}

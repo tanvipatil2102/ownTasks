@@ -2,14 +2,24 @@
     <div class="card mb-3"
     *ngFor="let prod of productsData"
     >
-        <div class="card-body">
+        <div class="card-body"
+        [ngClass]="{
+            'notAvl' : !prod.isAvailable
+        }"
+        >
             <div class="row">
                 <div class="col-md-3">
-                    <img class="imgCss" [src]="prod.imgUrl" [alt]="prod.prodName">
+                    <img class="imgCss" [src]="prod.imgUrl" [alt]="prod.prodName" [title]="prod.prodName">
                 </div>
                 <div class="col-md-5">
                     <h5>{{prod.prodName}}</h5>
-                    <small class="badge badge-primary mb-4">
+                    <small class="badge badge-primary mb-4"
+                    [ngClass]="{
+                        'badge-primary' : prod.rating >= 4,
+                        'badge-warning' : prod.rating < 4 && prod.rating >= 3.5,
+                        'badge-danger' : prod.rating < 3.5
+                    }"
+                    >
                         {{prod.rating}} <i class="fa-solid fa-star fa-xs"></i>
                     </small>
                     <span class="text-muted ml-2"><strong>{{prod.ratings}} Ratings and {{prod.reviews}} Reviews</strong></span>
