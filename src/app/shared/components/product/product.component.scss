@@ -1,0 +1,59 @@
+.imgCss{
+    width: 85%;
+    height: fit-content;
+}
+
+.price{
+    position: relative;
+    & i{
+        position: absolute;
+        top: 18px;
+    }
+    & h3{
+        position: absolute;
+        left: 20px;
+    }
+    & img{
+        position: absolute;
+        left: 118px;
+        top: 8px;
+    }
+}
+
+.savings{
+    color: #878787;
+    position: relative;
+    i{
+        position: absolute;
+        left: 2px;
+        top: 53px;
+    }
+
+    small{
+        position: absolute;
+        left: 10px;
+        top: 42px;
+    }
+
+    .off{
+        position: absolute;
+        left: 60px;
+        top: 42px;
+        font-weight: 500;
+        color: rgb(38, 165, 65);
+    }
+}
+
+.delevery{
+    position: relative;
+    top: 30%;
+}
+
+.save{
+    color: rgb(38, 165, 65);
+    position: relative;
+    top: 30%;
+    small{
+        font-weight: 500;
+    }
+}
